@@ -1,0 +1,6 @@
+<!-- home.component.html -->
+<div class="user-info">
+    <p (click)="toggleLogout()">{{ user.name }}</p>
+    <button *ngIf="showLogout" (click)="logout()">Logout</button>
+    <div class="home-content">home page</div>  
+</div>
